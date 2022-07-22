@@ -5,15 +5,38 @@ body {
 
 .container {
   max-width: 900px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 header h1 {
   font-size: 1.5em;
   color: #553700;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 10px; }
 header h2 {
   font-size: 1em;
-  color: #AA8239; }
+  color: #AA8239;
+  margin-bottom: 20px; }
+
+.theme-switch-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center; }
+
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px; }
+  .theme-switch__label {
+    margin-left: 10px; }
+  .theme-switch__checkbox {
+    display: none; }
+
+.contacts {
+  margin-left: 100px; }
 
 .contact {
   display: flex; }
