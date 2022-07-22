@@ -51,6 +51,30 @@ header {
     &__checkbox {
         display: none;
     }
+    .slider::before {
+        content: " ";
+        background-color: #fff;
+        position: absolute;
+        left: 4px;
+        bottom: 4px;
+        height: 26px;
+        width: 26px;
+    }
+    .slider.round {
+        border-radius: 34px;
+        background: #aaa;
+        &::before{
+            border-radius: 50%;
+        }
+    }
+    .round {
+        background-color: #ccc;
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
 }
 .photo {
     width: 100px;

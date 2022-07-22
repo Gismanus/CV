@@ -39,6 +39,26 @@ header {
     margin-left: 10px; }
   .theme-switch__checkbox {
     display: none; }
+  .theme-switch .slider::before {
+    content: " ";
+    background-color: #fff;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    height: 26px;
+    width: 26px; }
+  .theme-switch .slider.round {
+    border-radius: 34px;
+    background: #aaa; }
+    .theme-switch .slider.round::before {
+      border-radius: 50%; }
+  .theme-switch .round {
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0; }
 
 .photo {
   width: 100px;
