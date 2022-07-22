@@ -102,4 +102,23 @@ a {
     color: $color-primary-3;
 }
 
-
+@media (max-width: 600px) {
+    .cv {
+        padding: 10px;
+        text-align: justify;
+    }
+    header {
+        padding-top: 40px;
+    }
+    .theme-switch-wrapper {
+        display: none;
+    }
+    .theme-switch__label {
+        display: none;
+    }
+    .photo {
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+}

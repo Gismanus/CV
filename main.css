@@ -85,22 +85,7 @@ a {
   color: #805A15; }
 
 @media (max-width: 600px) {
-  .cv {
-    padding: 10px;
-    text-align: justify; }
+  body {
+    background: #000; } }
 
-  header {
-    padding-top: 40px; }
-
-  .theme-switch-wrapper {
-    display: none; }
-
-  .theme-switch__label {
-    display: none; }
-
-  .photo {
-    position: absolute;
-    right: 0;
-    top: -20px; } }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
