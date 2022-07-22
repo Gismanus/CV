@@ -13,16 +13,24 @@ body {
 }
 
 header {
+    padding-top: 30px;
+    .titles-wrapper {
+        float: left;
+    }
     h1 {
         font-size: 1.5em;
         color: $color-primary-4;
         font-weight: bold;
         margin-bottom: 10px;
+        margin-top: 0;
+
+
     }
     h2 {
         font-size: 1em;
         color: $color-primary-0;
         margin-bottom: 20px;
+
     }
 }
 .theme-switch-wrapper{
@@ -44,14 +52,30 @@ header {
         display: none;
     }
 }
+.photo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 30%;
+    box-shadow: 0 0 5px 5px $color-primary-2;
+}
+.description {
+    clear: both;
+}
 .contacts {
-    margin-left: 100px;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .contact {
     display: flex;
     &__type {
         width: 120px;
     }
+}
+a {
+    text-decoration: none;
+    color: $color-primary-3;
 }
 
 
