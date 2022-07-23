@@ -84,6 +84,9 @@ a {
   text-decoration: none;
   color: #805A15; }
 
+.expirience {
+  display: flex; }
+
 @media (max-width: 600px) {
   .cv {
     padding: 10px;
