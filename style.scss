@@ -85,6 +85,7 @@ header {
 }
 .description {
     clear: both;
+    text-align: justify;
 }
 .contacts {
     clear: both;
@@ -102,8 +103,29 @@ a {
     color: $color-primary-3;
 }
 
-.expirience {
+.experience {
     display: flex;
+
+    &__date {
+        width: 20%;
+    }
+    &__description {
+        min-width: 80%;  
+    }
+
+    &__name {
+        font-weight: bold;
+        font-style: italic;
+    }
+}
+
+.skills {
+    color: $color-primary-3;
+
+        h3 {
+            color: $color-primary-4;
+            font-size: 2em;
+        }
 }
 
 
